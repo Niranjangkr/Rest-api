@@ -21,9 +21,15 @@ const getAllProducts = async (req, res) => {
         
         let apiData = product.find(queryObject) 
 
+        let page = Number(req.query.page) || 1;
+        let limit = Number(req.query.limit) || 10; 
+        let skip = (page - 1) * limit;
+        console.log(page, limit)
+        apiData = apiData.skip(skip).limit(limit)
+         
         if(select){
-            const fixSelcet = select.replace(",", " ") 
-            console.log(fixSelcet)
+            const fixSelcet = select.split(",").join(" ") 
+            console.log(fixSelcet)  
             apiData = product.find(queryObject).select(fixSelcet)
         }
 
@@ -35,7 +41,7 @@ const getAllProducts = async (req, res) => {
         console.log(queryObject)
         const data = await apiData; //its like reular expression only if you dont include any query it  will still work and will fetch all the data
         // console.log(data)
-        res.status(200).json(data)
+        res.status(200).json({data, nbHits: data.length})
     } catch (error) {
         console.log(error)
         res.status(500).json({"error":"Internal server error"})

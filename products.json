@@ -1,0 +1,160 @@
+[
+    {
+      "name": "iPhone 13",
+      "price": "1099",
+      "company": "Apple"
+    },
+    {
+      "name": "Galaxy S22",
+      "price": "999",
+      "company": "Samsung"
+    },
+    {
+      "name": "XPS 15",
+      "price": "1499",
+      "company": "Dell"
+    },
+    {
+      "name": "Redmi Note 10",
+      "price": "229",
+      "company": "MI"
+    },
+    {
+      "name": "ThinkPad X1 Yoga",
+      "price": "1799",
+      "company": "Lenovo",
+      "featured": true
+    },
+    {
+      "name": "Realme 7 Pro",
+      "price": "299",
+      "company": "Realme"
+    },
+    {
+      "name": "iPad Pro",
+      "price": "799",
+      "company": "Apple"
+    },
+    {
+      "name": "Inspiron 14",
+      "price": "699",
+      "company": "Dell"
+    },
+    {
+      "name": "Redmi Note 12",
+      "price": "249",
+      "company": "MI",
+      "featured": true
+    },
+    {
+      "name": "Yoga 9i",
+      "price": "1199",
+      "company": "Lenovo",
+      "featured": true
+    },
+    {
+      "name": "iPhone SE",
+      "price": "399",
+      "company": "Apple"
+    },
+    {
+      "name": "Galaxy A52",
+      "price": "449",
+      "company": "Samsung"
+    },
+    {
+      "name": "Inspiron 13",
+      "price": "599",
+      "company": "Dell"
+    },
+    {
+      "name": "Redmi Note 9S",
+      "price": "279",
+      "company": "MI"
+    },
+    {
+      "name": "ThinkBook 13s",
+      "price": "799",
+      "company": "Lenovo"
+    },
+    {
+      "name": "Realme 6",
+      "price": "249",
+      "company": "Realme",
+      "featured": true
+    },
+    {
+      "name": "iPad Mini",
+      "price": "499",
+      "company": "Apple"
+    },
+    {
+      "name": "XPS 17",
+      "price": "1999",
+      "company": "Dell",
+      "featured": true
+    },
+    {
+      "name": "Redmi Note 8",
+      "price": "199",
+      "company": "MI"
+    },
+    {
+      "name": "Yoga 7i",
+      "price": "899",
+      "company": "Lenovo"
+    },
+    {
+      "name": "iPhone 14",
+      "price": "1199",
+      "company": "Apple"
+    },
+    {
+      "name": "Galaxy S23",
+      "price": "1099",
+      "company": "Samsung"
+    },
+    {
+      "name": "Inspiron 15 2-in-1",
+      "price": "799",
+      "company": "Dell",
+      "featured": true
+    },
+    {
+      "name": "Redmi Note 11S",
+      "price": "329",
+      "company": "MI"
+    },
+    {
+      "name": "ThinkPad T14",
+      "price": "1199",
+      "company": "Lenovo"
+    },
+    {
+      "name": "Realme GT",
+      "price": "599",
+      "company": "Realme",
+      "featured": true
+    },
+    {
+      "name": "iPad Air 4",
+      "price": "699",
+      "company": "Apple"
+    },
+    {
+      "name": "XPS 13 2-in-1",
+      "price": "1699",
+      "company": "Dell"
+    },
+    {
+      "name": "Redmi Note 9 Pro",
+      "price": "279",
+      "company": "MI"
+    },
+    {
+      "name": "Yoga Slim 7 Pro",
+      "price": "1299",
+      "company": "Lenovo"
+    }
+  ]
+  

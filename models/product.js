@@ -23,11 +23,15 @@ const productsSchema = new mongoose.Schema({
     },
     company: {
         type: String,
-        enum: {
-            values: ["Apple", "Samsung", "Dell", "MI", "Lenovo", "Realme"],
-            message: `{VALUE} is not supported`,
-        }
-    }
+        // enum: {
+        //     values: ["ToeAnimation", "studio ghibli", "Mappa", "Bones"],
+        //     message: `{VALUE} is not supported`,
+        // }
+    },
+    img: {
+        type: String,
+        default:""
+    },
 })
 
 module.exports = mongoose.model("Product", productsSchema)

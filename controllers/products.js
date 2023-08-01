@@ -39,9 +39,9 @@ const getAllProducts = async (req, res) => {
             apiData = product.find(queryObject).sort(fixSort)
         }
         console.log(queryObject)
-        const data = await apiData; //its like reular expression only if you dont include any query it  will still work and will fetch all the data
+        const Anime = await apiData; //its like reular expression only if you dont include any query it  will still work and will fetch all the data
         // console.log(data)
-        res.status(200).json({data, nbHits: data.length})
+        res.status(200).json({Anime, nbHits: Anime.length})
     } catch (error) {
         console.log(error)
         res.status(500).json({"error":"Internal server error"})

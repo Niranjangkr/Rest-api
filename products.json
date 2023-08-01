@@ -1,160 +1,146 @@
 [
-    {
-      "name": "iPhone 13",
-      "price": "1099",
-      "company": "Apple"
-    },
-    {
-      "name": "Galaxy S22",
-      "price": "999",
-      "company": "Samsung"
-    },
-    {
-      "name": "XPS 15",
-      "price": "1499",
-      "company": "Dell"
-    },
-    {
-      "name": "Redmi Note 10",
-      "price": "229",
-      "company": "MI"
-    },
-    {
-      "name": "ThinkPad X1 Yoga",
-      "price": "1799",
-      "company": "Lenovo",
-      "featured": true
-    },
-    {
-      "name": "Realme 7 Pro",
-      "price": "299",
-      "company": "Realme"
-    },
-    {
-      "name": "iPad Pro",
-      "price": "799",
-      "company": "Apple"
-    },
-    {
-      "name": "Inspiron 14",
-      "price": "699",
-      "company": "Dell"
-    },
-    {
-      "name": "Redmi Note 12",
-      "price": "249",
-      "company": "MI",
-      "featured": true
-    },
-    {
-      "name": "Yoga 9i",
-      "price": "1199",
-      "company": "Lenovo",
-      "featured": true
-    },
-    {
-      "name": "iPhone SE",
-      "price": "399",
-      "company": "Apple"
-    },
-    {
-      "name": "Galaxy A52",
-      "price": "449",
-      "company": "Samsung"
-    },
-    {
-      "name": "Inspiron 13",
-      "price": "599",
-      "company": "Dell"
-    },
-    {
-      "name": "Redmi Note 9S",
-      "price": "279",
-      "company": "MI"
-    },
-    {
-      "name": "ThinkBook 13s",
-      "price": "799",
-      "company": "Lenovo"
-    },
-    {
-      "name": "Realme 6",
-      "price": "249",
-      "company": "Realme",
-      "featured": true
-    },
-    {
-      "name": "iPad Mini",
-      "price": "499",
-      "company": "Apple"
-    },
-    {
-      "name": "XPS 17",
-      "price": "1999",
-      "company": "Dell",
-      "featured": true
-    },
-    {
-      "name": "Redmi Note 8",
-      "price": "199",
-      "company": "MI"
-    },
-    {
-      "name": "Yoga 7i",
-      "price": "899",
-      "company": "Lenovo"
-    },
-    {
-      "name": "iPhone 14",
-      "price": "1199",
-      "company": "Apple"
-    },
-    {
-      "name": "Galaxy S23",
-      "price": "1099",
-      "company": "Samsung"
-    },
-    {
-      "name": "Inspiron 15 2-in-1",
-      "price": "799",
-      "company": "Dell",
-      "featured": true
-    },
-    {
-      "name": "Redmi Note 11S",
-      "price": "329",
-      "company": "MI"
-    },
-    {
-      "name": "ThinkPad T14",
-      "price": "1199",
-      "company": "Lenovo"
-    },
-    {
-      "name": "Realme GT",
-      "price": "599",
-      "company": "Realme",
-      "featured": true
-    },
-    {
-      "name": "iPad Air 4",
-      "price": "699",
-      "company": "Apple"
-    },
-    {
-      "name": "XPS 13 2-in-1",
-      "price": "1699",
-      "company": "Dell"
-    },
-    {
-      "name": "Redmi Note 9 Pro",
-      "price": "279",
-      "company": "MI"
-    },
-    {
-      "name": "Yoga Slim 7 Pro",
-      "price": "1299",
-      "company": "Lenovo"
-    }
-  ]
-  
+  {
+    "name": "One Piece",
+    "price": "1099",
+    "company": "Toei Animation",
+    "img": "https://img.flawlessfiles.com/_r/300x400/100/54/90/5490cb32786d4f7fef0f40d7266df532/5490cb32786d4f7fef0f40d7266df532.jpg",
+    "featured": true
+  },
+  {
+    "name": "Naruto",
+    "price": "999",
+    "company": "Studio Pierrot",
+    "img": "https://img.flawlessfiles.com/_r/300x400/100/da/3a/da3a3d57e29aa0dba87cd6e1596b78e9/da3a3d57e29aa0dba87cd6e1596b78e9.jpg",
+    "featured": true
+  },
+  {
+    "name": "Dragon Ball",
+    "price": "1499",
+    "company": "Toei Animation",
+    "img": "https://img.flawlessfiles.com/_r/300x400/100/64/27/6427073a4e3d1129e7f4e5e5889f9df4/6427073a4e3d1129e7f4e5e5889f9df4.jpg"
+  },
+  {
+    "name": "Attack on Titan",
+    "price": "229",
+    "company": "Wit Studio",
+    "img": "https://img.flawlessfiles.com/_r/300x400/100/de/bf/debf027d032c6d40b91fab16b2ff9bd4/debf027d032c6d40b91fab16b2ff9bd4.jpg"
+  },
+  {
+    "name": "Death Note",
+    "price": "1799",
+    "company": "Madhouse",
+    "img": "https://img.flawlessfiles.com/_r/300x400/100/5e/61/5e61f3e7c0045e46b670d31a5bb39c68/5e61f3e7c0045e46b670d31a5bb39c68.jpg",
+    "featured": true
+  },
+  {
+    "name": "My Hero Academia",
+    "price": "299",
+    "company": "Bones",
+    "img": "https://img.flawlessfiles.com/_r/300x400/100/20/b7/20b7580c1abdf45a6eaf4826fc9fdf33/20b7580c1abdf45a6eaf4826fc9fdf33.jpg"
+  },
+  {
+    "name": "Tokyo Ghoul",
+    "price": "799",
+    "company": "Studio Pierrot",
+    "img": "https://img.flawlessfiles.com/_r/300x400/100/a6/ff/a6ffd8294e7a5d540d7c462e94400189/a6ffd8294e7a5d540d7c462e94400189.jpg"
+  },
+  {
+    "name": "Demon Slayer",
+    "price": "699",
+    "company": "Ufotable",
+    "img": "https://img.flawlessfiles.com/_r/300x400/100/30/df/30df93feaa422101659e14d0a2a2f582/30df93feaa422101659e14d0a2a2f582.jpg"
+  },
+  {
+    "name": "Hunter x Hunter",
+    "price": "249",
+    "company": "Madhouse",
+    "img": "https://img.flawlessfiles.com/_r/300x400/100/45/c5/45c50af44712f05b30c9cbfba6283abb/45c50af44712f05b30c9cbfba6283abb.jpg"
+  },
+  {
+    "name": "Fullmetal Alchemist",
+    "price": "1199",
+    "company": "Bones",
+    "img": "https://img.flawlessfiles.com/_r/300x400/100/0d/2d/0d2d0a1d4276e7e2595702dc4cebbda9/0d2d0a1d4276e7e2595702dc4cebbda9.jpeg",
+    "featured": true
+  },
+  {
+    "name": "Bleach",
+    "price": "399",
+    "company": "Studio Pierrot",
+    "img": "https://img.flawlessfiles.com/_r/300x400/100/bd/5a/bd5ae1d387a59c5abcf5e1a6a616728c/bd5ae1d387a59c5abcf5e1a6a616728c.jpg"
+  },
+  {
+    "name": "Fairy Tail",
+    "price": "449",
+    "company": "A-1 Pictures",
+    "img": "https://img.flawlessfiles.com/_r/300x400/100/cc/bc/ccbc20fd8ddf9b2000bf23894a787436/ccbc20fd8ddf9b2000bf23894a787436.jpg"
+  },
+  {
+    "name": "One Punch Man",
+    "price": "599",
+    "company": "Madhouse",
+    "img": "https://img.flawlessfiles.com/_r/300x400/100/f5/d1/f5d173f8317f592c6c70d594829b89e4/f5d173f8317f592c6c70d594829b89e4.jpg"
+  },
+  {
+    "name": "Sword Art Online",
+    "price": "279",
+    "company": "A-1 Pictures",
+    "img": "https://img.flawlessfiles.com/_r/300x400/100/90/dc/90dca175561e61180622bc79218104cb/90dca175561e61180622bc79218104cb.jpg"
+  },
+  {
+    "name": "Naruto Shippuden",
+    "price": "799",
+    "company": "Studio Pierrot",
+    "img": "https://img.flawlessfiles.com/_r/300x400/100/9c/bc/9cbcf87f54194742e7686119089478f8/9cbcf87f54194742e7686119089478f8.jpg"
+  },
+  {
+    "name": "Dragon Ball Z",
+    "price": "249",
+    "company": "Toei Animation",
+    "img": "https://img.flawlessfiles.com/_r/300x400/100/2a/c3/2ac32c050b4dff7747fcc7f64c01edbd/2ac32c050b4dff7747fcc7f64c01edbd.jpg",
+    "featured": true
+  },
+  {
+    "name": "Neon Genesis Evangelion",
+    "price": "499",
+    "company": "Gainax",
+    "img": "https://th.bing.com/th/id/OIP.uqIrJYEdBqLGuVPkQmBcbAAAAA?pid=ImgDet&w=409&h=512&rs=1"
+  },
+  {
+    "name": "My Neighbor Totoro",
+    "price": "1999",
+    "company": "Studio Ghibli",
+    "img": "https://th.bing.com/th/id/OIP.uqIrJYEdBqLGuVPkQmBcbAAAAA?pid=ImgDet&w=409&h=512&rs=1",
+    "featured": true
+  },
+  {
+    "name": "Pokémon",
+    "price": "199",
+    "company": "OLM, Inc.",
+    "img": "https://th.bing.com/th/id/OIP.uqIrJYEdBqLGuVPkQmBcbAAAAA?pid=ImgDet&w=409&h=512&rs=1"
+  },
+  {
+    "name": "Cowboy Bebop",
+    "price": "899",
+    "company": "Sunrise",
+    "img": "https://th.bing.com/th/id/OIP.uqIrJYEdBqLGuVPkQmBcbAAAAA?pid=ImgDet&w=409&h=512&rs=1"
+  },
+  {
+    "name": "Demon Slayer: Kimetsu no Yaiba",
+    "price": "1199",
+    "company": "Ufotable",
+    "img": "https://th.bing.com/th/id/OIP.uqIrJYEdBqLGuVPkQmBcbAAAAA?pid=ImgDet&w=409&h=512&rs=1"
+  },
+  {
+    "name": "Death Parade",
+    "price": "599",
+    "company": "Madhouse",
+    "img": "https://th.bing.com/th/id/OIP.uqIrJYEdBqLGuVPkQmBcbAAAAA?pid=ImgDet&w=409&h=512&rs=1"
+  },
+  {
+    "name": "Ghost in the Shell",
+    "price": "699",
+    "company": "Production I.G",
+    "img": "https://th.bing.com/th/id/OIP.uqIrJYEdBqLGuVPkQmBcbAAAAA?pid=ImgDet&w=409&h=512&rs=1"
+  }
+]

@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 })
 
 // middleware or to set the router
-app.use('/api/products', products_route)
+app.use('/api/anime', products_route)
     
 const PORT = process.env.PORT || 3000
 const start = async () => {

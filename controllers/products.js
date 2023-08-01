@@ -3,12 +3,14 @@ const { param } = require('../routes/products');
 
 const getAllProducts = async (req, res) => {
     try {
-        const { company, name, featured, sort } = req.query
+        const { company, name, featured, sort, select } = req.query
+        
         const queryObject = {}
         if(company){
             queryObject.company = {$regex: company, $options: 'i'}
             // console.log(queryObject)
         }
+
         if(name){
             queryObject.name = {$regex: name, $options: `i`}
         }
@@ -16,8 +18,14 @@ const getAllProducts = async (req, res) => {
         if (featured){
             queryObject.featured = featured
         }
+        
+        let apiData = product.find(queryObject) 
 
-        let apiData = product.find(queryObject)
+        if(select){
+            const fixSelcet = select.replace(",", " ") 
+            console.log(fixSelcet)
+            apiData = product.find(queryObject).select(fixSelcet)
+        }
 
         if(sort){
             const fixSort = sort.replace(",", " ")

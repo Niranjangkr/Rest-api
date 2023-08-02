@@ -74,4 +74,4 @@ const getProductByNameLetter = async (req, res) => {
         res.status(200).json({myData})
     };
 
-module.exports = {   getAllProducts, getAllProductsTesting, getProductByNameLetter, getProductByQuery}
+module.exports = {   getAllProducts, getAllProductsTesting,     getProductByNameLetter, getProductByQuery}
